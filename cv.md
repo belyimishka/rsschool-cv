@@ -14,7 +14,7 @@
 
 ## About me
 
-I want to learn a new profession. I am 49 years old. I understand that I need to move on, learn something new and promising. I worked in social security and in a bank, so the profession of a front-end developer seemed the most suitable for me. Do not sit still and do not wait for mana from heaven. Take it and do it. I'm starting from scratch, practice and knowledge - zero. I know it's hard, but it should be worth it.
+I want to learn a new profession. I am 49 years old. I understand that I need to move on, learn something new and promising. I worked in social security and in a bank, so the profession of a front-end developer seemed the most suitable for me. I'm starting from scratch, I know it's hard, but it is worth it.
 
 ## Skills
 
@@ -29,3 +29,15 @@ function multiply(a, b) {
 
 console.log(multiply(3, 5));
 ```
+
+## Experience
+
+My CV is the first project
+
+## Education
+
+- Univercity: Barnaul State Pedagogical University, history teacher
+
+## English
+
+A2
