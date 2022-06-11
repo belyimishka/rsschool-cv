@@ -5,6 +5,11 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -13,6 +18,33 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  background-color: #c0a79c;
+  padding: 5px 10px;
+  height: 70px;
+}
+
+nav {
+  height: 100%;
+}
+
+.nav__list {
+  max-width: 1100px;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #f5eae6;
+  font-size: 20px;
 }
 
 ul {
