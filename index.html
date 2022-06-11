@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <div class="left-column">
-            <section class="left-column__contacts"></section>
-            <h2>Contact details</h2>
-                <ul>
-                    <li>location: Beograg, Serbia</li>
-                    <li>Phone: +381 62 9755 926</li>
-                    <li>e-mail: natasokol0305@gmail.com</li>
-                    <li>GitHub: belyimishka</li>
-                </ul>
-            <section class="left-column__education">
-                <h2>Education</h2>
-                <p>Univercity: Barnaul State Pedagogical University, history teacher</p>
-            </section>
-            <section class="left-column__language">
-                <h2>Language</h2>
-                <ul>
-                    <li>Russian native</li>
-                    <li>English A2</li>
-                </ul>
-            </section>
-        </div>
-        <div class="right-column">
-            <section class="right-column__profile">
-                <h2>rsschool-cv</h2>
-                <p>Natalia Sokolenko</p>
-                <img src="./Sokolenko_N.jpeg" alt="my foto">
-            </section>
-            <section class="right-column__summary">
-                <h2>About me</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="left-column">
+        <img
+          class="contacts__photo"
+          src="./assets/Sokolenko_N.jpeg"
+          alt="my photo"
+        />
+        <section class="contacts section">
+          <h2 class="left-column__title">Contact details</h2>
+          <ul>
+            <li>location: Beograg, Serbia</li>
+            <li>Phone: +381 62 9755 926</li>
+            <li>e-mail: natasokol0305@gmail.com</li>
+            <li>GitHub: belyimishka</li>
+          </ul>
+        </section>
+        <section class="education section">
+          <h2 class="left-column__title">Education</h2>
+          <p>
+            Univercity: Barnaul State Pedagogical University, history teacher
+          </p>
+        </section>
+        <section class="language section">
+          <h2 class="left-column__title">Language</h2>
+          <ul>
+            <li>Russian native</li>
+            <li>English A2</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right-column">
+        <section class="right-column__profile">
+          <h2 class="right-column__title">rsschool-cv</h2>
+          <p>Natalia Sokolenko</p>
+        </section>
+        <section class="right-column__summary">
+          <h2 class="right-column__title">About me</h2>
 
-                <p>
-                    I want to learn a new profession. I am 49 years old. I understand that I need to move on, learn something new and promising. I worked in social security and in a bank, so the profession of a front-end developer seemed the most suitable for me. I'm starting from scratch, I know it's hard, but it is worth it.
-                </p>
-                <section class="right-column__skills">
-                    <h2>Skills</h2>
-                    <p>There are no skills for this profession</p>
-                </section>
-            </section>
-            <section class="right-column__experience">
-                <h2>Experience</h2>
-                <p>My CV is the first project</p>
-            </section>
-            <section class="right-column__code">
-                <h2>Сode Example</h2>
-                <pre><code>
-function multiply(a, b) {
-    return a * b;
-}
-console.log(multiply(3, 5));
-                </code></pre>
-            </section>
-        </div>
+          <p>
+            I want to learn a new profession. I am 49 years old. I understand
+            that I need to move on, learn something new and promising. I worked
+            in social security and in a bank, so the profession of a front-end
+            developer seemed the most suitable for me. I'm starting from
+            scratch, I know it's hard, but it is worth it.
+          </p>
+          <section class="right-column__skills">
+            <h2 class="right-column__title">Skills</h2>
+            <p>There are no skills for this profession</p>
+          </section>
+        </section>
+        <section class="right-column__experience">
+          <h2 class="right-column__title">Experience</h2>
+          <p>My CV is the first project</p>
+        </section>
+        <section class="right-column__code">
+          <h2 class="right-column__title">Сode Example</h2>
+          <pre>
+            <code>
+  function multiply(a, b) {
+      return a * b;
+  }
+  console.log(multiply(3, 5));
+            </code>
+          </pre>
+        </section>
+      </div>
+    </main>
+  </body>
+  <footer class="footer">
+    <div class="footer__info">
+      <p class="footer__year">2022</p>
+      <a
+        target="”_blank”"
+        class="footer__link"
+        href="https://github.com/belyimishka"
+        >GitHub</a
+      >
     </div>
-</body>
-<footer>
-    <a href="https://github.com/belyimishka">GitHub</a>
-    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"></a>
-    <p>2022</p>
-</footer>
+    <a target="”_blank”" href="https://rs.school/js/"
+      ><img
+        class="footer__logo"
+        src="https://rs.school/images/rs_school_js.svg"
+    /></a>
+  </footer>
 </html>
