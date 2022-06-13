@@ -1,9 +1,13 @@
-/* @font-face {
-    font-family: Joan;
-    src: url("assets/fonts/Joan.ttf");
-} */
+@font-face {
+  font-family: "Heritage";
+  font-weight: normal;
+  font-style: normal;
+  src: url("assets/fonts/Tai_Heritage_Pro/TaiHeritagePro-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
+  font-family: "Heritage", Arial, Helvetica, sans-serif;
 }
 
 html {
