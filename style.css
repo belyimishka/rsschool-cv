@@ -32,10 +32,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-  color: #000;
-}
-
 .header {
   background-color: #c0a79c;
   padding: 5px 10px;
@@ -145,7 +141,7 @@ ul {
   margin: 0;
 }
 
-.footer__link {
+.section__link {
   text-decoration: none;
   color: #000;
 }
